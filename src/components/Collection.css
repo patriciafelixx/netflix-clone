@@ -1,0 +1,41 @@
+.items {
+    display: flex;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.items img {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.items img:hover {
+    transform: scale(1.0);
+}
+
+.before-icon {
+    position: absolute;
+    left: 0;
+    height: 300px;
+    
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.next-icon {
+    position: absolute;
+    right: 0;
+    height: 300px;
+    background-color: #1116;
+    
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.items:hover .before-icon,
+.items:hover .next-icon {
+    opacity: 1;
+    transition: 0.5s;
+}

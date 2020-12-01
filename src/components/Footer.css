@@ -1,0 +1,41 @@
+#footer {
+    color: #808080;
+    width: 80%;
+    font-size: 14px;
+    padding: 20px 120px 20px 40px;
+
+    display: block;
+    margin: 60px auto 20px;
+       
+}
+
+#footer .socialmedia svg {
+    height: 25px;
+    width: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+#footer .links-list {
+    padding: 10px 0;
+    line-height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer .links-list li,
+#footer .links-list li a {
+    text-decoration: none;
+    list-style: none;
+    color: #808080;
+}
+
+#footer .links-list li a:hover {
+    text-decoration: underline;
+}
+
+#footer .copyright {
+    font-size: 11px;
+    font-weight: 400;
+}
